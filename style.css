@@ -15,11 +15,11 @@ body {
 }
 
 .icon-star {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   margin-bottom: 30px;
-  padding: 12px;
+  padding: 14px;
   background-color: hsl(213, 19%, 24%);
   display: flex;
   align-items: center;
