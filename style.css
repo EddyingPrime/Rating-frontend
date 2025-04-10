@@ -15,11 +15,11 @@ body {
 }
 
 .icon-star {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-bottom: 30px;
-  padding: 14px;
+  padding: 12px;
   background-color: hsl(213, 19%, 24%);
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ p {
   line-height: 1.6;
 }
 
-ul {
+.rating-buttons {
   color: hsl(217, 12%, 63%);
   list-style: none;
   display: flex;
@@ -62,7 +62,7 @@ ul {
   font-size: 15px;
 }
 
-ul li {
+.rating-buttons .rating-btn {
   background-color: hsl(212, 18%, 21%);
   border-radius: 50%;
   width: 40px;
@@ -71,10 +71,6 @@ ul li {
   margin-top: 20px;
   padding-top: 12px;
   font-weight: 700;
-}
-
-button {
-  background: none;
   border: none;
   color: inherit;
   font: inherit;
@@ -94,4 +90,5 @@ button {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 3px;
+  border: none;
 }
