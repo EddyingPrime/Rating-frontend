@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <div class="card-container">
-        <div class="card">
+        <div class="card rating-card">
           <div class="icon-star">
             <img src="images/icon-star.svg" alt="Star icon" />
           </div>
@@ -29,9 +29,19 @@
             <button class="rating-btn">4</button>
             <button class="rating-btn">5</button>
           </div>
-          <button class="submit">SUBMIT</button>
+          <button class="submit" disabled>SUBMIT</button>
+        </div>
+        <div class="card thank-you-card" style="display: none">
+          <img src="images/illustration-thank-you.svg" alt="Thank you" />
+          <p class="selected-rating">You selected 4 out of 5</p>
+          <h2>Thank you!</h2>
+          <p class="thank-you-message">
+            We appreciate you taking the time to give a rating. if you ever need
+            more support, dont hesitate to get in touch!
+          </p>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
